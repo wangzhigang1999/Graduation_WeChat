@@ -1,0 +1,84 @@
+/* pages/AdminPages/CreatePhotoPreview/CreatePhotoPreview.wxss */
+/* pages/AdminPages/AdminPageIndex/AdminPageIndex.wxss */
+/* pages/JoinPages/JoinConfrimPage/JoinConfirm.wxss */
+/* pages/CreatePages/finishPage/finishPage.wxss */
+
+.q-image-wrap {
+  margin-top: 40rpx;
+  height: 680rpx;
+  display: flex;
+  align-self: center;
+  border-radius: 12rpx;  
+  border: solid 1px #ccc;
+}
+
+.SubTitle {
+  margin-top: 800rpx;
+  color :#363233;
+  margin-left: 40rpx;
+  font-size: 38rpx;
+  font-weight: 800;
+}
+
+.SubSubTitle {
+  margin-top: 800rpx;
+  color :#363233;
+  margin-left: 40rpx;
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.textBox {
+  padding-top: 40rpx;
+}
+.textBox1 {
+  padding-top: 60rpx;
+}
+.textBox2 {
+  padding-top: 20rpx;
+}
+
+.imageShow {
+  justify-self: center;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+}
+
+.imageAndInfo{ 
+  margin-top: 20rpx;
+  margin-left: 35rpx;
+  display: flex;
+  /* align-items: center; */
+}
+
+.imageIcon {
+  width: 44rpx;
+}
+.infoText {
+  margin-left: 5rpx;
+  font-weight: 600;
+  color: #707070;
+}
+
+.CustomButton {
+  width: 694rpx;
+  height: 85rpx;
+  margin-top: 40rpx;
+  font-size: 36rpx;
+  background-color:#3E3C3D;
+  color: white;
+  border-radius: 12rpx; 
+  font-weight: 600;
+}
+.CustomButton:active {
+  background-color: rgb(82, 77, 78);
+}
+
+.itemGrayTitle {
+  color : #707070;
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-left: 40rpx;
+}

@@ -1,0 +1,24 @@
+<!--pages/JoinPages/JoinConfrimPage/JoinConfirm.wxml-->
+
+<!--pages/CreatePages/finishPage/finishPage.wxml-->
+<view class="imageShow">
+<image class="q-image-wrap" src="{{ backgroundImg }}" mode = "widthFix" width = "900"/>  
+</view>
+<view class="textBox">
+<text class="SubTitle">{{photoName}}</text>
+</view>
+<view class="imageAndInfo">
+  <image class="imageIcon" src="/images/personIcon.png" mode="widthFix"></image>
+  <text class="infoText">{{studentNumber}}人</text>
+ </view>
+<view class="imageAndInfo">
+  <image class="imageIcon" src="/images/houseIcon.png" mode="widthFix"></image>
+  <text class="infoText">{{schoolName}}</text>
+ </view>
+ <view class="textBox1">
+<text class="SubTitle">您的合影邀请码是：{{uuid}}</text>
+</view>
+<button class="CustomButton JointButton" bindtap="BtnToJoin">{{btnText}}</button>
+<button class="CustomButton GotoMyProfile" bindtap="BtnToMyprofile">去完善自己的照片</button>
+<button open-type= "share" class="CustomButton GotoMyProfile" bindtap="BtnToMyprofile">分享给我的好友</button>
+

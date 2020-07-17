@@ -1,0 +1,26 @@
+<!--pages/AdminPages/EditPeopleArray/EditPeopleArrayPage.wxml-->
+<view class="textBox1">
+<text class="SubTitle">人员排列位置示意图</text>
+</view>
+<view class="imageShow">
+<image class="q-image-wrap" src="{{ backgroundImg[studentNumber-1] }}" mode = "widthFix" width = "900"/>  
+</view>
+<view class="textBox1">
+<text class="SubSubTitle">拖拽列表更改位置</text>
+</view>
+<view class="container">
+
+ <view bindtap="box" class="box" >
+
+
+ <view disable-scroll="true" wx:for="{{content}}" bindtap="box" bindtouchmove="move" bindtouchstart="movestart" bindtouchend="moveend" data-index="{{item.relative_position}}" data-main="{{mainx}}" class="main {{mainx == item.relative_position? 'mainmove':'mainend'}}" style="left:{{start.x}}px; top:{{start.y}}px">
+( {{item.relative_position}} )  {{item.user_name}} [备注：{{item.user_remark}}]
+ </view>
+ </view>
+</view>
+
+
+
+
+<button class="CustomButton JointButton" bindtap="BtnToEdit">确认修改</button>
+

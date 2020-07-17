@@ -1,0 +1,101 @@
+/* pages/uploadMyInfo/imageComposeForMine/imageComposeForMIne.wxss */
+
+
+.btn{
+  padding: 10rpx 20rpx;
+  float:left;
+  margin:10rpx;
+  border:solid 1px #dfdfdf;
+  border-radius: 10rpx;
+}
+
+/* pages/uploadMyInfo/imageCropperForMine/imageCropperForMine.wxss */
+/* pages/CreatePages/ImageCropper/ImageCropper.wxss */
+
+.SubTitle {
+  position: flex;
+  z-index: 100;
+  color :#363233;
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  font-size: 38rpx;
+  font-weight: 800;
+}
+.SubSubTitle {
+  position: flex;
+  color :#363233;
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+.TipTitle {
+  position: flex;
+  z-index: 100;
+  color :#363233;
+  margin-top: 140rpx;
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+
+.ConfirmBtn {
+  margin-top: 40rpx;
+  border-radius: 8rpx; 
+  font-weight: 600;
+  position: flex;
+  width: 694rpx;
+  color: white;
+  background-color:#3E3C3D;
+  border-radius: 12rpx; 
+}
+
+
+
+.canvas {
+  margin-top: 20rpx;
+  display: flex;
+}
+
+
+.sticker-lists-body {
+  padding-left: 30rpx;
+}
+
+.sticker-lists-body .sticker-list {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 24rpx;
+  display: inline-block;
+  vertical-align: top;
+}
+.sticker-lists-body .sticker-list image {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ffffff;
+}
+
+
+.recommend_scroll_x_box {
+  height: 100rpx;
+  padding-top: 30rpx;
+  padding-bottom: 40rpx;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  vertical-align: top;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.bottom {
+  margin-top: 40rpx;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}

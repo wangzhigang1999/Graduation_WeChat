@@ -1,0 +1,75 @@
+.SubTitle {
+  color :#363233;
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 800;
+}
+
+.titleBox {
+  margin-top: 40rpx;
+}
+.q-image-wrap1 {
+  will-change: transform;
+  
+  width: 250rpx;
+  height: 236rpx;
+  display: flex;
+  border-radius: 16rpx;  
+}
+
+.imageAndInfo{ 
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  display: flex;
+  /* align-items: center; */
+}
+
+.iconAndText {
+  margin-top: 10rpx;
+  display: flex;
+}
+
+.itemTitle {
+  color :#363233;
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-top: 10rpx;
+}
+
+.itemGrayTitle {
+  color : #707070;
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-left: 10rpx;
+}
+
+.info {
+  margin-left: 20rpx;
+  flex-direction: column;
+  display: flex;
+}
+
+.imageIcon {
+  width: 48rpx;
+  
+}
+.iconView {
+  padding-top: 10;
+}
+
+/* 横着的分割View样式 */
+/*分割线样式*/
+.divLine{
+  
+  
+  background: rgb(235, 235, 235);
+  width: 90%;
+  height: 3rpx;
+ }
+
+ .divide {
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+ }

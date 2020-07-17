@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "image-cropper": "/component/image-cropper/image-cropper"
+ },
+  "navigationBarTitleText": "修改个人照片（1/2）",
+  "disableScroll": true
+}

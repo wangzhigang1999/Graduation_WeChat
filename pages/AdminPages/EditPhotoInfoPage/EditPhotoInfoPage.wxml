@@ -1,0 +1,27 @@
+<!--pages/CreatePages/CreatePageBasicInfo/CreatePageBasicInfo.wxml-->
+
+<view>
+<form bindsubmit="submitEvent">
+<view class="titleBox">
+<text class="SubTitle">合影名称</text>
+</view>
+<view class="inputBox">
+<input class="input" name="photoName" placeholder= "{{imageName}}"  cursor-spacing="140"/></view>
+    <view class="titleBox">
+<text class="SubTitle">毕业院校</text>
+</view>
+<view class="inputBox">
+<input class="input" name="graduateSchool" placeholder="{{schoolName}}" cursor-spacing="140"/></view>
+    <view class="titleBox">
+<text class="SubTitle">毕业班级</text>
+</view>
+<view class="inputBox">
+<input class="input" name="graduateClass" placeholder="{{classNumber}}" cursor-spacing="140"/></view>
+    <view class="titleBox">
+<text class="SubTitle">其他信息（选填）</text>
+</view>
+<view class="inputBox">
+<input class="input" name="otherInfo" placeholder="{{otherInfo}}" cursor-spacing="140"/></view>
+    <button form-type="submit" class="CustomButton JointButton">完成</button>
+</form>
+</view>

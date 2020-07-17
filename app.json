@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myprofile/myprofile",
+    "pages/uploadMyInfo/imageComposeForMine/imageComposeForMIne",
+    "pages/uploadMyInfo/imageCropperForMine/imageCropperForMine",
+    "pages/CreatePages/CreatePageBasicInfo/CreatePageBasicInfo",
+    "pages/CreatePages/ImageCropper/ImageCropper",
+    "pages/CreatePages/finishPage/finishPage",
+    "pages/JoinPages/JoinConfrimPage/JoinConfirm",
+    "pages/uploadMyInfo/uploadMyBasicInfo/uploadMyBasicInfo",
+    "pages/ReEditMyInfo/ReEditMyInfoPage/ReEditMyInfoPage",
+    "pages/AdminPages/AdminPageIndex/AdminPageIndex",
+    "pages/AdminPages/EditPhotoInfoPage/EditPhotoInfoPage",
+    "pages/AdminPages/EditBackImg/EditBackImgPage",
+    "pages/AdminPages/EditPeopleArray/EditPeopleArrayPage",
+    "pages/AdminPages/CreatePhotoPreview/CreatePhotoPreview",
+    "pages/GetImagePages/ComposeImagePages/ComposeImagePages",
+    "pages/ReEditMyInfo/changeBasicInfoPage/changeBasicInfoPage",
+    "pages/ReEditMyInfo/imageCroppperForReEdit/imageCroppperForReEdit",
+    "pages/uploadMyInfo/uploadFinishPage/uploadFinishPage",
+    "pages/ReEditMyInfo/ReCompose/ReCompose"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Graduation",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#363233",
+    "selectedColor": "#363233",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/HomeButton_HL.png",
+        "iconPath": "images/HomeButton.png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "images/MyProfileButton_HL.png",
+        "iconPath": "images/MyProfileButton.png",
+        "pagePath": "pages/myprofile/myprofile",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,41 @@
+/* pages/uploadMyInfo/uploadMyBasicInfo/uploadMyBasicInfo.wxss */
+/* pages/CreatePages/CreatePageBasicInfo/CreatePageBasicInfo.wxss */
+.SubTitle {
+  color :#363233;
+  margin-left: 40rpx;
+  font-size: 34rpx;
+  font-weight: 800;
+}
+
+.titleBox {
+  margin-top: 40rpx;
+}
+
+.inputBox {
+  margin-top: 32rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  border-bottom: 2px solid #EDEDED;
+}
+
+.input {
+  color: #555555;
+  margin-right: 10rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+
+.CustomButton {
+  width: 694rpx;
+  height: 85rpx;
+  margin-top: 40rpx;
+  font-size: 36rpx;
+  background-color:#3E3C3D;
+  color: white;
+  border-radius: 12rpx; 
+  font-weight: 600;
+}
+.CustomButton:active {
+  background-color: rgb(82, 77, 78);
+}

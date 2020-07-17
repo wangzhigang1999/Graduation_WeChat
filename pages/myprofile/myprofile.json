@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "MyProfile（下拉刷新）",
+  "enablePullDownRefresh": true, 
+  "backgroundTextStyle": "dark" 
+}

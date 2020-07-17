@@ -1,0 +1,55 @@
+/**index.wxss**/
+.SubTitle {
+  color :#363233;
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 800;
+}
+.swiper-wrap {
+  padding-top: 40rpx;
+  padding-bottom: 64rpx;
+  display: flex;
+  justify-content: center;  
+}
+.show { 
+  width: 694rpx;
+  height: 332rpx;
+  /*下面三行代码很关键*/
+  border-radius: 14rpx;
+  overflow: hidden;
+  transform: translateY(0);
+}
+.slide-image {
+  width: 694rpx;
+  height: 332rpx;
+  overflow:show;
+}
+.CustomButton {
+  width: 694rpx;
+  height: 85rpx;
+  margin-top: 40rpx;
+  font-size: 36rpx;
+  background-color:#3E3C3D;
+  color: white;
+  border-radius: 12rpx; 
+  font-weight: 600;
+}
+.CustomButton:active {
+  background-color: rgb(82, 77, 78);
+}
+
+.inputBox {
+  margin-top: 75rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  border-bottom: 2px solid #EDEDED;
+}
+
+.input {
+  color: #555555;
+  margin-right: 10rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+

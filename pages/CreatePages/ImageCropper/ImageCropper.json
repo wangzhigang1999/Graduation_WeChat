@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "image-cropper": "/component/image-cropper/image-cropper"
+ },
+ "navigationBarTitleText": "创建合影（2/2）",
+ "disableScroll": true
+}

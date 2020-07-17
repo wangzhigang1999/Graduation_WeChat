@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "image-cropper": "/component/image-cropper/image-cropper"
+ },
+ "navigationBarTitleText": "更改合影背景",
+ "disableScroll": true
+}

@@ -1,0 +1,27 @@
+<!--pages/AdminPages/CreatePhotoPreview/CreatePhotoPreview.wxml-->
+<view class="textBox">
+<text class="SubTitle">人物合成预览</text>
+</view>
+<view class="imageShow">
+<image class="q-image-wrap" src="{{ prePhotoURL }}" mode = "heightFix" height = "680"/>  
+</view>
+
+<view class="textBox">
+<text class="SubTitle">{{imageName}}</text>
+</view>
+<view class="imageAndInfo">
+  <image class="imageIcon" src="/images/personIcon.png" mode="widthFix"></image>
+  <text class="infoText">{{studentNumber}} 人</text>
+ </view>
+<view class="imageAndInfo">
+  <image class="imageIcon" src="/images/houseIcon.png" mode="widthFix"></image>
+  <text class="infoText">{{schoolName}}</text>
+ </view>
+
+<view class="textBox1">
+<text class="SubSubTitle">确认发布后您将无法进行对合影的全局修改</text>
+</view>
+<view class="textBox2">
+<text class="SubSubTitle">合影将在我的页面中进行最后背景合成</text>
+</view>
+ <button class="CustomButton" bindtap="BtnToConfrim">确认发布</button>

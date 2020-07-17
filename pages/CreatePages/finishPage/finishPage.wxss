@@ -1,0 +1,62 @@
+/* pages/CreatePages/finishPage/finishPage.wxss */
+
+.q-image-wrap {
+  margin-top: 40rpx;
+  width: 680rpx;
+  display: flex;
+  border-radius: 12rpx;  
+}
+
+.SubTitle {
+  margin-top: 800rpx;
+  color :#363233;
+  margin-left: 40rpx;
+  font-size: 38rpx;
+  font-weight: 800;
+  
+}
+
+.textBox {
+  padding-top: 40rpx;
+}
+.textBox1 {
+  padding-top: 80rpx;
+}
+.textBox2 {
+  padding-top: 20rpx;
+}
+
+.imageShow {
+  padding-left: 35rpx;
+  justify-self: center;
+}
+
+.imageAndInfo{ 
+  margin-top: 20rpx;
+  margin-left: 35rpx;
+  display: flex;
+  /* align-items: center; */
+}
+
+.imageIcon {
+  width: 44rpx;
+}
+.infoText {
+  margin-left: 5rpx;
+  font-weight: 600;
+  color: #707070;
+}
+
+.CustomButton {
+  width: 694rpx;
+  height: 85rpx;
+  margin-top: 40rpx;
+  font-size: 36rpx;
+  background-color:#3E3C3D;
+  color: white;
+  border-radius: 12rpx; 
+  font-weight: 600;
+}
+.CustomButton:active {
+  background-color: rgb(82, 77, 78);
+}

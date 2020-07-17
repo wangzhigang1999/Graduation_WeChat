@@ -1,0 +1,93 @@
+<view>
+
+<view class="titleBox">
+<text class="SubTitle">我创建的合影</text>
+</view>
+
+<view wx:for="{{Administrator}}" class="Admin" data-index="{{index}}" data-uuid="{{item.photo.photoId}}" bindtap="AdministratorItemBtn">
+
+<view class="imageAndInfo">
+<image class="q-image-wrap1" src="https://www.bupt.site{{ item.photo.backgroundImg }}" mode = "aspectFill"/> 
+<view class="info">
+<text class = "itemTitle">{{item.photo.imageName}} （{{item.photo.studentNumber}}人）</text>
+<view class="iconAndText">
+<view class="iconView">
+<image class="imageIcon" src="/images/MyItemNumIcon@3x.png" mode="widthFix"></image>
+</view>
+<text class = "itemGrayTitle">加入/确认 {{item.joined}}/{{item.confirmed}}</text>
+</view>
+<view class="iconAndText">
+<view class="iconView">
+<image class="imageIcon" src="/images/MyItemSchoolIcon@3x.png" mode="widthFix"></image>
+</view>
+<text class = "itemGrayTitle">{{item.photo.schoolName}}</text>
+</view>
+<view class="iconAndText">
+<view class="iconView">
+<image class="imageIcon" src="/images/MyItemStateIcon@3x.png" mode="widthFix"></image>
+</view>
+<text class = "itemGrayTitle" wx:if="{{ item.photo.status == 1 }}">待所有人确认</text>
+<text class = "itemGrayTitle" wx:elif="{{ item.photo.status == 2 }}">所有已确认待发布</text>
+<text class = "itemGrayTitle" wx:else="{{ item.photo.status == 3 }}">已发布</text>
+</view>
+</view>
+</view>
+<view class="divide">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+  </view>
+
+</view>
+<view class="divide" wx:if="{{ Administrator.length == 0 }}">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+  </view>
+
+
+
+
+
+
+
+<view class="titleBox">
+<text class="SubTitle">我加入的合影</text>
+</view>
+
+
+
+<view wx:for="{{Joined}}" class="Joined" data-index="{{index}}" data-uuid="{{item.photo.photoId}}" bindtap="JoinedItemBtn">
+<view class="imageAndInfo">
+<image class="q-image-wrap1" src="https://www.bupt.site{{ item.photo.backgroundImg }}" mode = "aspectFill"/> 
+<view class="info">
+<text class = "itemTitle">{{item.photo.imageName}} （{{item.photo.studentNumber}}人）</text>
+<view class="iconAndText">
+<view class="iconView">
+<image class="imageIcon" src="/images/MyItemNumIcon@3x.png" mode="widthFix"></image>
+</view>
+<text class = "itemGrayTitle">加入/确认 {{item.joined}}/{{item.confirmed}}</text>
+</view>
+<view class="iconAndText">
+<view class="iconView">
+<image class="imageIcon" src="/images/MyItemSchoolIcon@3x.png" mode="widthFix"></image>
+</view>
+<text class = "itemGrayTitle">{{item.photo.schoolName}}</text>
+</view>
+<view class="iconAndText">
+<view class="iconView">
+<image class="imageIcon" src="/images/MyItemStateIcon@3x.png" mode="widthFix"></image>
+</view>
+<text class = "itemGrayTitle">{{item.userStatus}}</text>
+</view>
+</view>
+</view>
+<view class="divide">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+  </view>
+</view>
+<view class="divide" wx:if="{{ Joined.length == 0 }}">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+  </view>
+</view>
+

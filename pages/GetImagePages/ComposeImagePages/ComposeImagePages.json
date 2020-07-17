@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "领取合影",
+  "usingComponents": {
+    "canvas-drag": "../../../component/canvas-drag/index"
+}
+}

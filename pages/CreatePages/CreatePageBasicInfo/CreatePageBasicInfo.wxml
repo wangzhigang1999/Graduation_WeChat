@@ -1,0 +1,32 @@
+<!--pages/CreatePages/CreatePageBasicInfo/CreatePageBasicInfo.wxml-->
+
+<view>
+<form bindsubmit="submitEvent">
+<view class="titleBox">
+<text class="SubTitle">合影名称</text>
+</view>
+<view class="inputBox">
+<input class="input" name="photoName" type ="text" placeholder="请输入合影名称" cursor-spacing="140"/></view>
+    <view class="titleBox">
+<text class="SubTitle">毕业院校</text>
+</view>
+<view class="inputBox">
+<input class="input" name="graduateSchool" type ="text" placeholder="请输入毕业院校" cursor-spacing="140"/></view>
+    <view class="titleBox">
+<text class="SubTitle">毕业班级</text>
+</view>
+<view class="inputBox">
+<input class="input" name="graduateClass" type ="text" placeholder="请输入毕业班级" cursor-spacing="140"/></view>
+    <view class="titleBox">
+<text class="SubTitle">合影人数</text>
+</view>
+<view class="inputBox">
+<input class="input" name="numOfPeople" type ="number" placeholder="后续不可更改（数字）" cursor-spacing="140"/></view>
+    <view class="titleBox">
+<text class="SubTitle">其他信息（选填）</text>
+</view>
+<view class="inputBox">
+<input class="input" name="otherInfo" type ="text" placeholder="请输入其他信息" cursor-spacing="140"/></view>
+    <button form-type="submit" class="CustomButton JointButton">下一步</button>
+</form>
+</view>

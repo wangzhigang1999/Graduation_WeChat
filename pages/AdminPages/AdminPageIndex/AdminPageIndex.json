@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "修改集体（下拉刷新）",
+  "enablePullDownRefresh": true, 
+  "backgroundTextStyle": "dark" 
+}

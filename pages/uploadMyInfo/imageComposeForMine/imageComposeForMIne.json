@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "修改个人照片（3/3）",
+  "usingComponents": {
+      "canvas-drag": "../../../component/canvas-drag/index"
+  }
+}

@@ -1,0 +1,30 @@
+<!--pages/AdminPages/AdminPageIndex/AdminPageIndex.wxml-->
+
+<!--pages/JoinPages/JoinConfrimPage/JoinConfirm.wxml-->
+
+<!--pages/CreatePages/finishPage/finishPage.wxml-->
+
+<view class="imageShow">
+<image class="q-image-wrap" src="{{ backImg }}" mode = "widthFix" width = "900"/>  
+</view>
+<view class="textBox">
+<text class="SubTitle">{{imageName}}（{{studentNumber}}人）</text>
+</view>
+<view class="imageAndInfo">
+  <image class="imageIcon" src="/images/personIcon.png" mode="widthFix"></image>
+  <text class="infoText">加入/确认 {{joined}}/{{confirmed}}</text>
+ </view>
+<view class="imageAndInfo">
+  <image class="imageIcon" src="/images/houseIcon.png" mode="widthFix"></image>
+  <text class="infoText">{{schoolName}}</text>
+ </view>
+
+<button class="CustomButton EditPhotoInfo" bindtap="EditPhotoInfo">修改集体信息</button>
+<button class="CustomButton EditBackImg" bindtap="EditBackImg">修改背景图片</button>
+<button open-type= "share" class="CustomButton JointButton" bindtap="shareJoined">邀请好友加入合影</button>
+<view class="textBox">
+<text class = "itemGrayTitle" wx:if="{{ status == 1 }}">（待所有人确认无法排列或发布）</text>
+<text class = "itemGrayTitle" wx:elif="{{ status == 2 }}">（待管理员排列和发布）</text>
+</view>
+<button class="CustomButton EditPeopleArray" bindtap="EditPeopleArray">修改人员排列</button>
+<button class="CustomButton CreateFinalPhoto" bindtap="CreateFinalPhoto">生成人物预览</button>

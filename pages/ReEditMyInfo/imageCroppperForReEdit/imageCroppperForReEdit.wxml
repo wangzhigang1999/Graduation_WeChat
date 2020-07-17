@@ -1,0 +1,11 @@
+<!--pages/uploadMyInfo/imageCropperForMine/imageCropperForMine.wxml-->
+
+<view>
+<text class="SubTitle">请裁剪至头部不要包含肩部</text>
+<text class="TipTitle">图片裁剪像素为（460x460）</text>
+<button class="CustomButton SelectePicButton" bindtap="BtnToPickPhoto">选择照片</button>
+<text class="SubSubTitle">请在预览区域中拖拽或缩放图片进行调整</text>
+ <button class="CustomButton ConfirmBtn" bindtap="BtnToConfirm">下一步</button>
+</view>
+<image-cropper id="image-cropper" limit_move="{{true}}" disable_rotate="{{true}}" width="{{width}}" height="{{height}}" imgSrc="{{src}}" bindload="cropperload" bindimageload="loadimage" bindtapcut="clickcut"></image-cropper>
+

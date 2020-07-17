@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view>
+<view class="swiper-wrap">
+<swiper class="show" 
+          indicator-dots="{{indicatorDots}}"  
+           autoplay="{{autoplay}}" 
+           interval="{{interval}}" 
+           duration="{{duration}}" 
+           circular="true"
+           indicator-color="rgba(255, 255, 255, 0.4)"
+          indicator-active-color="#fff">  
+         <block wx:for="{{imgUrls}}">  
+           <swiper-item>  
+               <image src="{{item.url}}" class="slide-image" />  
+           </swiper-item>  
+         </block>  
+</swiper>
+</view>
+<text class="SubTitle">创建或加入合影</text>
+<button class="CustomButton CreateButton" bindtap="BtnToCreatePage">创建合影</button>
+<form bindsubmit="submitform">
+<view class="inputBox">
+<input class="input" name="uuidCode" placeholder="{{uuidText}}" cursor-spacing="140" type="tetx"/></view>
+    <button class="CustomButton JointButton" form-type="submit">加入合影</button>
+</form>
+</view>

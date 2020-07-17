@@ -1,0 +1,59 @@
+.SubTitle {
+  position: absolute;
+  z-index: 100;
+  color :#363233;
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  font-size: 38rpx;
+  font-weight: 800;
+}
+.SubSubTitle {
+  position: absolute;
+  z-index: 100;
+  color :#363233;
+  margin-top: 400rpx;
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+.TipTitle {
+  position: absolute;
+  z-index: 100;
+  color :#363233;
+  margin-top: 140rpx;
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+
+.CustomButton {
+  position: absolute;
+  z-index: 100;
+  margin-left: 40rpx;
+  width: 234rpx;
+  height: 85rpx;
+  margin-top: 50rpx;
+  font-size: 36rpx;
+  background-color:#3E3C3D;
+  color: white;
+  border-radius: 8rpx; 
+  font-weight: 600;
+}
+.CustomButton:active {
+  background-color: rgb(82, 77, 78);
+}
+
+.ConfirmBtn {
+  position: absolute;
+  width: 694rpx;
+  margin-top: 1000rpx;
+  border-radius: 12rpx; 
+  left: -10rpx;
+}
+
+.SelectePicButton {
+  position: absolute;
+  margin-top: 250rpx;
+}

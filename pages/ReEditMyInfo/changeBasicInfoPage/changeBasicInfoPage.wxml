@@ -1,0 +1,18 @@
+<!--pages/uploadMyInfo/uploadMyBasicInfo/uploadMyBasicInfo.wxml-->
+<!--pages/CreatePages/CreatePageBasicInfo/CreatePageBasicInfo.wxml-->
+
+<view>
+<form bindsubmit="submitEvent">
+<view class="titleBox">
+<text class="SubTitle">个人姓名</text>
+</view>
+<view class="inputBox">
+<input class="input" name="userName" placeholder="{{userName}}" cursor-spacing="140"/></view>
+    <view class="titleBox">
+<text class="SubTitle">备注（给管理员的位置安排参考）</text>
+</view>
+<view class="inputBox">
+<input class="input" name="userRemark" placeholder="{{userRemark}}" cursor-spacing="140"/></view>
+    <button form-type="submit" class="CustomButton JointButton">确认修改</button>
+</form>
+</view>

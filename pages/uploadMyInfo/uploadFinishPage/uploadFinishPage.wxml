@@ -1,0 +1,19 @@
+<!--pages/uploadMyInfo/uploadFinishPage/uploadFinishPage.wxml-->
+<!--pages/ReEditMyInfo/ReEditMyInfoPage/ReEditMyInfoPage.wxml-->
+<view class="textBox">
+<text class="SubTitle">{{userName}}的个人照片</text>
+</view>
+<view class="imageShow">
+<image class="q-image-wrap" src="{{ userFinalImg }}" mode = "widthFix" />  
+</view>
+
+<view class="imageAndInfo">
+  <image class="imageIcon" src="/images/personIcon.png" mode="widthFix"></image>
+  <text class="infoText">备注：{{remark}}</text>
+ </view>
+
+<button class="CustomButton" bindtap="backToMyprofile">返回我的</button>
+<view class="textBox">
+<text class="SubSubTitle">您在确认后将无法继续更改照片</text>
+</view>
+<button class="CustomButton" bindtap="confirmUpload">确认个人照片</button>

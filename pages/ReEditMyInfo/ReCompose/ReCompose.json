@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "修改个人照片（2/2）",
+  "usingComponents": {
+      "canvas-drag": "../../../component/canvas-drag/index"
+  }
+}

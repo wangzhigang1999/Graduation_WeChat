@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "image-cropper": "/component/image-cropper/image-cropper"
+ },
+  "navigationBarTitleText": "上传个人（2/3）",
+  "disableScroll": true
+}

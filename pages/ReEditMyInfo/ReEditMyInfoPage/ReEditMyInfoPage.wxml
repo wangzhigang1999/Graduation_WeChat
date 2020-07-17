@@ -1,0 +1,19 @@
+<!--pages/ReEditMyInfo/ReEditMyInfoPage/ReEditMyInfoPage.wxml-->
+<view class="textBox">
+<text class="SubTitle">{{userName}}的个人照片</text>
+</view>
+<view class="imageShow">
+<image class="q-image-wrap" src="{{ userFinalImg }}" mode = "widthFix" />  
+</view>
+
+<view class="imageAndInfo">
+  <image class="imageIcon" src="/images/personIcon.png" mode="widthFix"></image>
+  <text class="infoText">备注：{{userRemark}}</text>
+ </view>
+
+<button class="CustomButton" bindtap="changeBasicInfo">修改个人信息</button>
+<button class="CustomButton" bindtap="changeImage">修改个人照片</button>
+<view class="textBox">
+<text class="SubSubTitle">您在确认后将无法继续更改照片</text>
+</view>
+<button class="CustomButton" bindtap="confirmUpload">确认个人照片</button>
